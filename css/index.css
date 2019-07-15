@@ -113,11 +113,11 @@ h1, h2, h3, h4, h5 {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin-left: 138px;
-        margin-right: 86px;
+        margin-left: 0;
+        margin-right: 0;
         width: 242px;
-        padding-right: 13px;
-        padding-top: 17px;
+        padding-right: 0;
+        padding-top: 0;
     }
     .top{
         display: flex;
@@ -142,8 +142,17 @@ h1, h2, h3, h4, h5 {
       
 
     @media(max-width: 800px) {
+        .cta {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+
     }
-   
+    .cta .slogan{
+        width: 47%;
+    }
+}
 header nav {
 	display:flex;
 	margin-top: 10px;
