@@ -1,3 +1,266 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+
+.container{
+	width: 878px;
+	margin:auto;
+	border: 1px solid white;
+}
+
+@media(max-width: 500px) {
+      .container{
+          display: flex;
+          flex-direction: column; 
+          align-content: center; 
+          width:100%;   
+      }
+
+      .cta img{
+          display:none;
+      }
+      header{
+          display:flex;
+          align-items: center;
+      }
+      nav{
+          display: flex;
+          flex-direction: column-reverse;
+          align-content: center;
+          margin-left: 25%;
+          margin-right: 20%;
+      }
+       a{
+          display: flex;
+          flex-direction: column-reverse;
+          align-items: center;
+          border-top: 1px solid black;
+          border-bottom: 1px solid black;
+      }
+      header nav a{
+        margin:  0 20px;
+        color:gray;
+        border-bottom:1px solid black;
+        text-decoration: none;
+        margin-top: 20px;
+      }
+      .cta .slogan {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 138px;
+        margin-right: 86px;
+        width: 242px;
+        padding-right: 13px;
+        padding-top: 17px;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+    justify-content: space-around;
+    }
+  .mid{
+      display: flex;
+      flex-direction: column;
+
+  }
+  .mid .product {
+    display: inline-block;
+   
+    }
+    .mid .services{
+    display: inline-block;
+    
+    }
+}
+
+      
+
+    @media(max-width: 800px) {
+    }
+   
+header nav {
+	display:flex;
+	margin-top: 10px;
+	margin-bottom: 35px;
+}
+
+header nav a{
+	margin:  0 20px;
+	color:gray;
+	border:none;
+	text-decoration: none;
+	margin-top: 20px;
+}
+.cta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.cta .buttons{
+	display: inline;
+}
+header img{
+	margin-left: 35px;
+	
+}
+
+.cta h1{
+	display: inline-block;
+	
+	font-size: 50px;
+}
+.cta a{
+	display: inline-block;
+	border: 1px solid black;
+	width: 100px;
+	padding-left: 9px;
+	text-decoration: none;
+	margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.top{
+    justify-content: space-evenly;
+    Display: flex;
+
+	border-top: 1px solid black;
+	
+}
+.top .features h2{
+	margin-bottom: 6px;
+}
+.top .features{
+	display:inline-block;
+    padding: 0px;
+    width: 465px;
+	
+}
+.top .about h2{
+	letter-spacing: 1px;
+    margin-bottom: 6px;
+}
+.top .about{
+	display:inline-block;
+	width: 367px;
+    padding: 0px;	
+}
+.mid{
+    border-bottom:1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+.mid .services h2{
+
+}
+.mid .services{
+	display:inline-block;
+	width: 240px;
+	;
+}
+.mid.product h2{
+
+}
+.mid .product{
+	display:inline-block;
+	width: 245px;
+	
+}
+.mid .vision h2{
+	display:inline-block;
+
+}
+
+.mid .vision{
+    width: 247px;
+    margin-right: 0px;
+    display: inline-block;
+}
+.bottom{
+	display: inline-block;
+}
+ .bottom h2{
+	margin-bottom: 0px
+	margin-top: 3px;
+	padding: 6px
+}.bottom p{
+	display:inline-block;
+    width: 138px;px;
+    margin-bottom: 4px;
+}
+
+footer{
+	font-size: small;
+    display: flex;
+align-content: center;
+justify-content: center;
+    }
 
