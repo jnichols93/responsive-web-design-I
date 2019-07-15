@@ -200,7 +200,7 @@ header img{
 }
 .top .features{
 	display:inline-block;
-    padding: 0px;
+    padding: 4%;
     width: 465px;
 	
 }
@@ -211,19 +211,20 @@ header img{
 .top .about{
 	display:inline-block;
 	width: 367px;
-    padding: 0px;	
+    padding: 4%;
 }
 .mid{
     border-bottom:1px solid black;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .mid .services h2{
 
 }
 .mid .services{
 	display:inline-block;
-	width: 240px;
+    width: 240px;
+    padding: 4%;
 	;
 }
 .mid.product h2{
@@ -232,20 +233,25 @@ header img{
 .mid .product{
 	display:inline-block;
 	width: 245px;
-	
+	padding: 4%;
 }
 .mid .vision h2{
-	display:inline-block;
-
+    width: 271px;
+    margin-right: 0px;
+    display: inline-block;
+    padding: 3%;
 }
 
 .mid .vision{
     width: 247px;
     margin-right: 0px;
     display: inline-block;
+    padding: 4%;
 }
 .bottom{
-	display: inline-block;
+    display: flex;
+    flex-direction: column;
+    width: 26%;
 }
  .bottom h2{
 	margin-bottom: 0px
@@ -254,8 +260,7 @@ header img{
 }
 .bottom p{
 	display:inline-block;
-    width: 138px;px;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
 }
 
 footer{
