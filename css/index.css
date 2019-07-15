@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5 {
           border-top: 1px solid black;
           border-bottom: 1px solid black;
       }
-      header nav a{
+       nav a{
         margin:  0 20px;
         color:gray;
         border-bottom:1px solid black;
@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5 {
   .mid{
       display: flex;
       flex-direction: column;
-
+      justify-content: space-around;
   }
   .mid .product {
     display: inline-block;
@@ -153,9 +153,9 @@ header nav {
 header nav a{
 	margin:  0 20px;
 	color:gray;
-	border:none;
 	text-decoration: none;
-	margin-top: 20px;
+    margin-top: 20px;
+    border-top:none;
 }
 .cta{
     display: flex;
@@ -251,7 +251,8 @@ header img{
 	margin-bottom: 0px
 	margin-top: 3px;
 	padding: 6px
-}.bottom p{
+}
+.bottom p{
 	display:inline-block;
     width: 138px;px;
     margin-bottom: 4px;
