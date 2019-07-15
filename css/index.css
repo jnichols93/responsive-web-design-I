@@ -78,7 +78,10 @@ h1, h2, h3, h4, h5 {
           display: flex;
           flex-direction: column; 
           align-content: center; 
-          width:100%;   
+          justify-content: center;
+          max-width: 500px;
+          width:auto;  
+          margin:auto; 
       }
 
       .cta img{
@@ -87,6 +90,9 @@ h1, h2, h3, h4, h5 {
       header{
           display:flex;
           align-items: center;
+          width:auto;
+          padding-bottom: 8%
+          
       }
       nav{
           display: flex;
@@ -116,47 +122,82 @@ h1, h2, h3, h4, h5 {
         margin-left: 0;
         margin-right: 0;
         width: 242px;
-        padding-right: 0;
-        padding-top: 0;
+
+        padding: 1%;
     }
     .top{
         display: flex;
+        align-items: center;
         flex-direction: column;
     justify-content: space-around;
+    align-items: baseline;
+    }
+    .top .features{
+        display: inline-block;
+        padding: 4%;
+        width: 367;
+        
+        width: 367px;
     }
   .mid{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
+    justify-content: space-evenly;
+    Display: flex;
+    flex-direction: column;
+    width:auto;
+    align-items: baseline;
+   
   }
   .mid .product {
+    display: flex;
     display: inline-block;
-   
+    padding: 4%;
+    width: 367px;
+
     }
     .mid .services{
     display: inline-block;
-    
+    display: inline-block;
+    padding: 4%;
+    width: 367px;
     }
 }
 
       
 
     @media(max-width: 800px) {
+
+        .container{
+            display: flex;
+            flex-direction: column; 
+            align-content: center; 
+            width:100%;   
+        }
         .cta {
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: space-around;
-
+            justify-content: center;
+            
+        
+    }
+    header nav{
+        padding: 5%;
+        display: flex;
+    }
+    .cta img{
+        display:none;
     }
     .cta .slogan{
         width: 47%;
     }
-}
+    }
+    /*begin regular*/
 header nav {
 	display:flex;
 	margin-top: 10px;
-	margin-bottom: 35px;
+    margin-bottom: 35px;
+    width:auto;
 }
 
 header nav a{
@@ -212,7 +253,7 @@ header img{
 .top .features{
 	display:inline-block;
     padding: 4%;
-    width: 465px;
+    width: 367px;
 	
 }
 .top .about h2{
