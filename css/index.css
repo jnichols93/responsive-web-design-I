@@ -213,8 +213,14 @@ header nav a{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
+    width: auto;
 }
-
+.cta .slogan{
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+}
 
 
 .cta .buttons{
@@ -243,9 +249,8 @@ header img{
 }
 
 .top{
-    justify-content: space-evenly;
     Display: flex;
-
+    justify-content: start;
 	border-top: 1px solid black;
 	
 }
@@ -270,7 +275,7 @@ header img{
 .mid{
     border-bottom:1px solid black;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 .mid .services h2{
 
